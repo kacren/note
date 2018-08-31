@@ -1,0 +1,73 @@
+IDARC
+内存 磁盘 cpu 报警 日志
+RAID阵列卡若破坏，需等待重建
+# halt -p   #关机
+# ipmitool -I lanplus  -U root -H 172.17.1.66 delloem setled
+# ipmitool -I lanplus  -U root -H 172.17.1.66 power on
+# ipmitool -I lanplus  -U root -H 172.17.1.66 sel slist
+# systemctl stop network
+# ifconfig
+winver
+远程管理机器：
+Windows：
+mstsc /admin
+
+/etc/dconf
+dconf update
+
+Linux:
+PuTTY:小，应急 
+Xshell
+
+跳板机(堡垒主机)：
+# ssh IP  -l  username  -p   tcp/udp
+# su -l
+# lxc-ls
+# lxc-consoel -n 
+
+Xshell
+支持多重连接同步操作
+
+有sftp：
+Ctrl + Alt + f ：上传文件
+无sftp：
+菜单-窗口-传输新建文件
+Ctrl + Alt + f
+xftp>lcd
+xftp>get 文件名  #下载文件
+xftp>put        #上传文件
+Ctrl + p   #查看属性
+
+# yum search lrzsz    
+# yum install lrzsz
+# rz         #上传文件
+# sz  文件名  #下载文件
+
+默认会话属性
+隧道--
+代理--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
