@@ -1,0 +1,5 @@
+# halt -p   #关机
+# ipmitool -I lanplus  -U root -H 172.17.1.66 delloem setled
+# ipmitool -I lanplus  -U root -H 172.17.1.66 power on
+
+IDARC
